@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="name_m">Nama</string>
+    <string name="dip_tech_store_m">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task_m">Ghalib Pradipa Tugas 5</string>
+    <string name="selamat_datang_di_dip_tech_store_m">Selamat Datang di Dip Store!</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="bronze">Bronze</string>
+    <string name="none">None</string>
+    <string name="item_code_m">Kode Barang</string>
+    <string name="membership_type_m">Tipe Pelangggan</string>
+    <string name="amount">Jumlah Barang</string>
+    <string name="purchase">Beli</string>
+    <string name="reset">Reset</string>
+    <string name="dip_tech_store_d">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task5">Ghalib Pradipa Tugas 5</string>
+    <string name="name_d">Nama : </string>
+    <string name="membership_pembeli">Tipe Pelanggan : </string>
+    <string name="detail_transaksi">Detail Transaksi</string>
+    <string name="item_code_d">Kode Barang : </string>
+    <string name="item_name">Nama Barang : </string>
+    <string name="price">Harga : </string>
+    <string name="total_price">Total Harga : </string>
+    <string name="discount">Diskon : </string>
+    <string name="member_discount">Diskon Member : </string>
+    <string name="total_payment">Jumlah Bayar : </string>
+    <string name="share"><![CDATA[Bagikan >]]></string>
+    <string name="thanks_outro">Terimakasih untuk sudah berbelanja disini</string>
+</resources>

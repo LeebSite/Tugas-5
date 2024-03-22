@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="name_m">Naam</string>
+    <string name="dip_tech_store_m">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task_m">Ghalib Pradipa Taak 5</string>
+    <string name="selamat_datang_di_dip_tech_store_m">Welkom bij Dip Tech Store!</string>
+    <string name="gold">Goud</string>
+    <string name="silver">Zilver</string>
+    <string name="bronze">Bronze</string>
+    <string name="none">Geen</string>
+    <string name="item_code_m">Artikelcode</string>
+    <string name="membership_type_m">Soort Lidmaatschap</string>
+    <string name="amount">Hoeveelheid</string>
+    <string name="purchase">Aankoop</string>
+    <string name="reset">Opnieuw Instellen</string>
+    <string name="dip_tech_store_d">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task5">Ghalib Pradipa Taak 5</string>
+    <string name="name_d">Naam : </string>
+    <string name="membership_pembeli">Soort Lidmaatschap : </string>
+    <string name="detail_transaksi">Transactie Details</string>
+    <string name="item_code_d">Artikelcode : </string>
+    <string name="item_name">Itemnaam : </string>
+    <string name="price">Prijs : </string>
+    <string name="total_price">Totale prijs :</string>
+    <string name="discount">Korting : </string>
+    <string name="member_discount">Ledenkorting : </string>
+    <string name="total_payment">Totale betaling : </string>
+    <string name="share"><![CDATA[Deel >]]></string>
+    <string name="thanks_outro">Bedankt voor het winkelen</string>
+</resources>

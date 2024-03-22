@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="stroke">#222831</color>
+    <color name="icon">#FFFFFF</color>
+    <color name="text_field">#030405</color>
+
+    <color name="gold_stroke">#B38444</color>
+    <color name="gold_solid">#CF9B53</color>
+    <color name="silver_stroke">#B4B4B8</color>
+    <color name="silver_solid">#C7C8CC</color>
+    <color name="bronze_stroke">#9C664E</color>
+    <color name="bronze_solid">#AB7055</color>
+    <color name="none_stroke">#CED3DB</color>
+    <color name="none_solid">#BFC3C9</color>
+
+    <color name="card">#31363F</color>
+    <color name="backgroundFrame">#000000</color>
+    <color name="bar">#144087</color>
+    <color name="text">#FFFFFF</color>
+    <color name="button1">#362FD9</color>
+    <color name="button2">#213369</color>
+</resources>

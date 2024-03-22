@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundFrame">
+
+    <TextView
+        android:id="@+id/tvNamaApp"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@color/bar"
+        android:fontFamily="@font/poppins_extrabold"
+        android:gravity="center"
+        android:paddingTop="19dp"
+        android:text="@string/dip_tech_store_m"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:background="@color/bar"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:paddingBottom="18dp"
+        android:text="@string/ghalib_pradipa_task_m"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaApp" />
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/selamat_datang_di_dip_tech_store_m"
+        android:textColor="@color/text"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tilNamaPembeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvNamaApp"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNamaPembeli"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        app:boxStrokeWidth="2dp"
+        android:hint="@string/name_m"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvIntro"
+        app:layout_constraintBottom_toTopOf="@id/tvMember">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tetNamaPembeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tvMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/membership_type_m"
+       android:fontFamily="@font/poppins_semibold"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/rgMember"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilNamaPembeli"/>
+
+    <RadioGroup
+        android:id="@+id/rgMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvMember"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9">
+
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_gold"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/gold"
+            android:buttonTintMode="multiply"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingRight="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_silver"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/silver"
+            android:buttonTintMode="multiply"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="-5dp"
+            android:textSize="13sp"
+            android:paddingRight="10dp"/>
+
+        <RadioButton
+            android:id="@+id/rbBronze"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_bronze"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/bronze"
+            android:buttonTintMode="multiply"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="-5dp"
+            android:textSize="12sp"
+            android:paddingRight="7dp"/>
+
+        <RadioButton
+            android:id="@+id/rbNone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rb_none"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/none"
+            android:buttonTintMode="multiply"
+            android:buttonTint="@color/black"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:paddingRight="10dp"/>
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilKodeBarang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:startIconDrawable="@drawable/baseline_search_24"
+        app:boxStrokeWidth="2dp"
+        android:hint="@string/item_code_m"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgMember"
+        app:layout_constraintBottom_toTopOf="@id/tilJumlahBarang">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tetKodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/text"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilJumlahBarang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:startIconDrawable="@drawable/baseline_add_shopping_cart_24"
+        app:boxStrokeWidth="2dp"
+        android:hint="@string/amount"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgMember"
+        app:layout_constraintBottom_toTopOf="@id/tilJumlahBarang">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tetJumlahBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/text"
+            android:textSize="15sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/button1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/purchase"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/btnReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilJumlahBarang"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button2"
+        android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"
+        android:onClick="resetData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnProses"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

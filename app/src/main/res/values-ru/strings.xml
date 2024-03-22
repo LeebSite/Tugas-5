@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="name_m">Имя</string>
+    <string name="dip_tech_store_m">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task_m">Ghalib Pradipa Задача 5</string>
+    <string name="selamat_datang_di_dip_tech_store_m">Добро пожаловать в магазин Dip Tech!</string>
+    <string name="gold">Золото</string>
+    <string name="silver">Серебро</string>
+    <string name="bronze">Бронза</string>
+    <string name="none">никто</string>
+    <string name="item_code_m">Код изделия</string>
+    <string name="membership_type_m">Тип членства</string>
+    <string name="amount">Количество</string>
+    <string name="purchase">Покупка</string>
+    <string name="reset">перезагрузить</string>
+    <string name="dip_tech_store_d">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task5">Ghalib Pradipa Задача 5</string>
+    <string name="name_d">Имя : </string>
+    <string name="membership_pembeli">Тип членства : </string>
+    <string name="detail_transaksi">Детали транзакции</string>
+    <string name="item_code_d">Код изделия : </string>
+    <string name="item_name">Название товара : </string>
+    <string name="price">Цена : </string>
+    <string name="total_price">Итоговая цена :</string>
+    <string name="discount">Скидки : </string>
+    <string name="member_discount">Скидка для участников : </string>
+    <string name="total_payment">Всего к оплате : </string>
+    <string name="share"><![CDATA[Делиться >]]></string>
+    <string name="thanks_outro">Спасибо за покупку здесь</string>
+</resources>

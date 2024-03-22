@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="name_m">Name</string>
+    <string name="dip_tech_store_m">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task_m">Ghalib Pradipa Task 5</string>
+    <string name="selamat_datang_di_dip_tech_store_m">Welcome to Dip Tech Store!</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="bronze">Bronze</string>
+    <string name="none">None</string>
+    <string name="item_code_m">Item code</string>
+    <string name="membership_type_m">Membership Type</string>
+    <string name="amount">Amount</string>
+    <string name="purchase">Purchase</string>
+    <string name="reset">Reset</string>
+    <string name="dip_tech_store_d">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task5">Ghalib Pradipa Task 5</string>
+    <string name="name_d">Name : </string>
+    <string name="membership_pembeli">Membership Type : </string>
+    <string name="detail_transaksi">Transaction Details</string>
+    <string name="item_code_d">Item Code : </string>
+    <string name="item_name">Item Name : </string>
+    <string name="price">Price : </string>
+    <string name="total_price">Total Price :</string>
+    <string name="discount">Discount : </string>
+    <string name="member_discount">Member Discount : </string>
+    <string name="total_payment">Total Payment : </string>
+    <string name="share"><![CDATA[Share >]]></string>
+    <string name="thanks_outro">Thank you for Shopping</string>
+</resources>

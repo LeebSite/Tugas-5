@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas5</string>
+    <string name="name_m">이름</string>
+    <string name="dip_tech_store_m">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task_m">Ghalib Pradipa 작업 5</string>
+    <string name="selamat_datang_di_dip_tech_store_m">에 오신 것을 환영합니다 Dip Tech Store!</string>
+    <string name="gold">금</string>
+    <string name="silver">은</string>
+    <string name="bronze">청동</string>
+    <string name="none">없음</string>
+    <string name="item_code_m">아이템 코드</string>
+    <string name="membership_type_m">Membership Type</string>
+    <string name="amount">양</string>
+    <string name="purchase">구입하다</string>
+    <string name="reset">초기화</string>
+    <string name="dip_tech_store_d">Dip Tech Store</string>
+    <string name="ghalib_pradipa_task5">Ghalib Pradipa 작업 5</string>
+    <string name="name_d">이름 : </string>
+    <string name="membership_pembeli">회원 유형 : </string>
+    <string name="detail_transaksi">상세 거래 내역</string>
+    <string name="item_code_d">아이템 코드 : </string>
+    <string name="item_name">상품명 : </string>
+    <string name="price">Price : </string>
+    <string name="total_price">총 가격 : </string>
+    <string name="discount">할인 : </string>
+    <string name="member_discount">회원할인 : </string>
+    <string name="total_payment">총 지불액 : </string>
+    <string name="share"><![CDATA[공유하다 >]]></string>
+    <string name="thanks_outro">쇼핑해주셔서 감사합니다</string>
+</resources>
