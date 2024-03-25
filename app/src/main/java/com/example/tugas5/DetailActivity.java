@@ -80,6 +80,24 @@ public class DetailActivity extends AppCompatActivity {
                 case "Bronze":
                     diskonMember = 0.02 * totalHarga;
                     break;
+                case "Золото":
+                    diskonMember = 0.1 * totalHarga;
+                    break;
+                case "Серебро":
+                    diskonMember = 0.05 * totalHarga;
+                    break;
+                case "Бронза":
+                    diskonMember = 0.02 * totalHarga;
+                    break;
+                case "금":
+                    diskonMember = 0.1 * totalHarga;
+                    break;
+                case "은":
+                    diskonMember = 0.05 * totalHarga;
+                    break;
+                case "청동":
+                    diskonMember = 0.02 * totalHarga;
+                    break;
             }
         }
 
